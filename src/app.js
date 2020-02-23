@@ -97,5 +97,9 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
+<<<<<<< HEAD
     console.log('Server is up on port '+ 3000)
+=======
+    console.log('Server is up on port '+3000)
+>>>>>>> 5dc1e94a032dc8a613acaf4af2edca600e16c0f7
 })
